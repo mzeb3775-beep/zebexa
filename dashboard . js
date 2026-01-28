@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zebexa | Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="header">
+      <h2>Admin Dashboard</h2>
+      <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+
+    <div class="cards">
+      <div class="card">
+        <h4>Total Users</h4>
+        <p id="totalUsers">0</p>
+      </div>
+
+      <div class="card">
+        <h4>Active Users</h4>
+        <p id="activeUsers">0</p>
+      </div>
+
+      <div class="card">
+        <h4>Admins</h4>
+        <p id="admins">0</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
