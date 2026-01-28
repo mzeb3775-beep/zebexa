@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* LOGIN */
+.auth-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a;
+}
+
+.auth-box {
+  background: #020617;
+  padding: 28px;
+  width: 320px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.auth-box h2 {
+  margin-bottom: 20px;
+  color: #38bdf8;
+}
+
+.auth-box input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 14px;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+  background: #020617;
+  color: white;
+}
+
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  background: #38bdf8;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* DASHBOARD */
+.dashboard {
+  min-height: 100vh;
+  background: #0f172a;
+  padding: 20px;
+  color: white;
+}
+
+.header {
+  background: #020617;
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  background: #ef4444;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+}
+
+.cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+.card {
+  background: #020617;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card h4 {
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+.card p {
+  font-size: 26px;
+  font-weight: bold;
+}
